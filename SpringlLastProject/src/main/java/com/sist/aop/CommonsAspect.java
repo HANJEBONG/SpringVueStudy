@@ -34,5 +34,7 @@ public class CommonsAspect {
 				}
 			}
 		}
+		System.out.println(list);
+		request.setAttribute("cList", list);
 	}
 }
